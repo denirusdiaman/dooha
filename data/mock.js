@@ -49,11 +49,6 @@ export const services = [
     icon: '✨'
   },
   {
-    title: 'Analytics & Reporting',
-    description: 'Data-driven insights and performance tracking',
-    icon: '📊'
-  },
-  {
     title: 'Web Development',
     description: 'Modern, responsive web development solutions',
     icon: '💻'
