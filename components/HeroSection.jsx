@@ -30,12 +30,13 @@ const HeroSection = () => {
           </p>
           
           {/* CTA Button */}
+          <a href="https://wa.me/6285159887588" target="_blank" rel="noopener noreferrer">
           <Button 
             size="lg" 
             className="bg-black text-white hover:bg-gray-800 px-8 py-4 text-lg font-semibold rounded-full mb-16 transition-all duration-300 hover:scale-105"
           >
             Get Started
-          </Button>
+          </Button></a>
           
           {/* Client avatars */}
           <div className="flex items-center justify-center space-x-4 mb-6">

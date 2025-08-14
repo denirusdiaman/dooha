@@ -11,7 +11,7 @@ export const navigationItems = [
 ];
 
 export const clientAvatars = [
-  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face',
+  'https://www.freepik.com/free-psd/3d-rendering-hair-style-avatar-design_375238347.htm#fromView=keyword&page=1&position=1&uuid=08bd5e0c-51ee-441e-a209-2be1ced04547&query=3d+Avatars',
   'https://images.unsplash.com/photo-1494790108755-2616b6d0aaf2?w=60&h=60&fit=crop&crop=face',
   'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=60&h=60&fit=crop&crop=face',
   'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=60&h=60&fit=crop&crop=face'

@@ -11,8 +11,8 @@ const TestimonialsSection = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-8 max-w-4xl mx-auto leading-tight">
-            What our satisfied customers are saying
-            <span className="block">about us</span>
+            What our satisfied customers are saying about us
+            {/* <span className="block">about us</span> */}
           </h2>
         </div>
         
