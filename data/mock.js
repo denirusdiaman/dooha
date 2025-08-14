@@ -27,12 +27,22 @@ export const brandLogos = [
 ];
 
 export const stats = [
-  { number: '+40', label: 'Total Projects Completed' },
+  { number: '+80', label: 'Total Projects Completed' },
   { number: '+15', label: 'Years of Experience' },
   { number: '+12', label: 'Design Awards' }
 ];
 
 export const services = [
+  {
+    title: 'Web Development',
+    description: 'Modern, responsive web development solutions',
+    icon: '💻'
+  },
+  {
+    title: 'Application Development',
+    description: 'Develop applications that engage users on the go.',
+    icon: '💻'
+  },
   {
     title: 'Brand Strategy',
     description: 'Strategic brand positioning and identity development',
@@ -52,11 +62,6 @@ export const services = [
     title: 'Analytics & Reporting',
     description: 'Data-driven insights and performance tracking',
     icon: '📊'
-  },
-  {
-    title: 'Web Development',
-    description: 'Modern, responsive web development solutions',
-    icon: '💻'
   }
 ];
 
@@ -98,17 +103,12 @@ export const teamMembers = [
     name: 'Brian Hanley',
     role: 'Product Designer',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face'
-  },
-  {
-    name: 'Darko Stanković',
-    role: 'UI Designer',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face'
   }
 ];
 
 export const testimonials = [
   {
-    quote: "Awake's expertise transformed my vision into success!",
+    quote: "Dooha's expertise transformed my vision into success!",
     author: 'Hendry',
     role: 'Founder of Persiapan Masuk UI',
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face'
@@ -120,7 +120,7 @@ export const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1494790108755-2616b6d0aaf2?w=100&h=100&fit=crop&crop=face'
   },
   {
-    quote: "Awake Design Agency brought our ideas to life with exceptional creativity and precision, exceeding expectations.",
+    quote: "Dooha brought our ideas to life with exceptional creativity and precision, exceeding expectations.",
     author: 'Dini',
     role: 'Creative Team of DKUI',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
