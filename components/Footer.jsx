@@ -8,18 +8,24 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Logo and description */}
           <div className="md:col-span-1">
-            <div className="flex items-center mb-6">
-              <div className="w-8 h-8 flex items-center justify-center">
-              <span className="w-4 h-4 block bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent text-2xl font-bold">
-                Dooha
-              </span>
+            {/* <div className="flex items-center mb-6">
+              <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center">
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+              </div>
               <span className="ml-2 text-xl font-bold text-gray-900">Awake</span>
+            </div> */}
+            <div className="flex items-center">
+              <div className="w-8 h-8 flex items-center justify-center">
+                <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent text-2xl font-bold">
+                  Dooha
+                </span>
+              </div>
             </div>
-            
+
             <p className="text-gray-600 mb-6 leading-relaxed">
               Empowering businesses with innovative solutions. Let's create something amazing together.
             </p>
-            
+
             {/* Social links */}
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-gray-600 transition-colors duration-200">
@@ -48,15 +54,15 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           {/* Sitemap */}
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-6">Sitemap</h3>
             <ul className="space-y-3">
               {footerLinks.sitemap.map((link, index) => (
                 <li key={index}>
-                  <a 
-                    href={link.href} 
+                  <a
+                    href={link.href}
                     className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
                   >
                     {link.name}
@@ -65,15 +71,15 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
+
           {/* Other Pages */}
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-6">Other Pages</h3>
             <ul className="space-y-3">
               {footerLinks.otherPages.map((link, index) => (
                 <li key={index}>
-                  <a 
-                    href={link.href} 
+                  <a
+                    href={link.href}
                     className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
                   >
                     {link.name}
@@ -82,7 +88,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
+
           {/* Contact Details */}
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-6">Contact Details</h3>
@@ -91,7 +97,7 @@ const Footer = () => {
                 {contactInfo.address}
               </p>
               <p className="text-gray-600">
-                <a 
+                <a
                   href={`mailto:${contactInfo.email}`}
                   className="hover:text-gray-900 transition-colors duration-200"
                 >
@@ -99,7 +105,7 @@ const Footer = () => {
                 </a>
               </p>
               <p className="text-gray-600">
-                <a 
+                <a
                   href={`tel:${contactInfo.phone}`}
                   className="hover:text-gray-900 transition-colors duration-200"
                 >
@@ -109,7 +115,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Bottom bar */}
         <div className="border-t border-gray-200 pt-8 text-center">
           <p className="text-gray-500">
