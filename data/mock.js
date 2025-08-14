@@ -18,8 +18,7 @@ export const clientAvatars = [
   '/dooha-avatar (1).jpg',
   '/dooha-avatar (2).jpg',
   '/dooha-avatar (3).jpg',
-  '/dooha-avatar (4).jpg',
-  '/dooha-avatar (5).jpg'
+  '/dooha-avatar (4).jpg'
 ];
 
 export const brandLogos = [
