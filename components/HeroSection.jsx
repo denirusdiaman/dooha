@@ -17,15 +17,15 @@ const HeroSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Main heading */}
           <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-gray-900 mb-8 leading-tight">
-            Building bold brands with
+            Building Bold Brands with
             <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent">
-              thoughtful design
+              Thoughtful Design
             </span>
           </h1>
           
           {/* Subtitle */}
           <p className="text-xl sm:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            At Awake, we help small startups tackle the world's biggest challenges with tailored solutions, 
+            At Dooha, we help small startups tackle the world's biggest challenges with tailored solutions, 
             guiding you from strategy to success in a competitive market.
           </p>
           
@@ -56,21 +56,21 @@ const HeroSection = () => {
           {/* Trust indicator */}
           <div className="text-center">
             <p className="text-gray-600 font-medium">
-              <span className="font-bold text-gray-900">Trusted by 1000+ clients</span>
+              <span className="font-bold text-gray-900">Trusted by 100+ clients</span>
             </p>
             <p className="text-sm text-gray-500 mt-1">
-              Loved by 1000+ big and small brands around the world
+              Loved by 100+ big and small brands around the world
             </p>
           </div>
         </div>
       </div>
       
       {/* Floating "Get This Template" button */}
-      <div className="fixed bottom-6 right-6 z-40">
+      {/* <div className="fixed bottom-6 right-6 z-40">
         <Button className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
           Get This Template
         </Button>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -1,4 +1,4 @@
-# Awake Agency - Next.js Website
+# Dooha - Next.js Website
 
 A beautiful, responsive website clone of the Awake Agency built with Next.js, Tailwind CSS, and modern design principles.
 

@@ -65,9 +65,9 @@ const TestimonialsSection = () => {
             {/* Stats card */}
             <div className="bg-white rounded-2xl p-8 shadow-md">
               <p className="text-sm text-gray-500 uppercase tracking-wide mb-2">Facts & numbers</p>
-              <div className="text-6xl font-bold text-gray-900 mb-2">91%</div>
+              <div className="text-6xl font-bold text-gray-900 mb-2">94%</div>
               <p className="text-lg font-semibold text-gray-700">
-                Clients recommend our design services.
+                Clients recommend our services.
               </p>
             </div>
             
