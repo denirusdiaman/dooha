@@ -29,7 +29,7 @@ export const brandLogos = [
 export const stats = [
   { number: '+80', label: 'Total Projects Completed' },
   { number: '+15', label: 'Years of Experience' },
-  { number: '4.6🌟', label: 'in Google Review' }
+  { number: '⭐4.6', label: 'in Google Review' }
 ];
 
 export const services = [
