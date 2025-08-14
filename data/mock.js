@@ -6,7 +6,7 @@ export const navigationItems = [
   { name: 'Work', href: '#work' },
   { name: 'Team', href: '#team' },
   { name: 'Pricing', href: '#pricing' },
-  { name: 'Awards', href: '#awards' },
+  // { name: 'Awards', href: '#awards' },
   { name: 'Contact', href: '#contact' }
 ];
 
@@ -90,18 +90,18 @@ export const portfolio = [
 
 export const teamMembers = [
   {
-    name: 'Logan Dang',
-    role: 'WordPress Developer',
+    name: 'Jaelani',
+    role: 'Application Developer',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face'
   },
   {
-    name: 'Ana Belić',
-    role: 'Social Media Specialist',
+    name: 'Rusdi',
+    role: 'Wordpress Developer',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face'
   },
   {
-    name: 'Brian Hanley',
-    role: 'Product Designer',
+    name: 'Haryadi',
+    role: 'UI/UX Designer',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face'
   }
 ];
@@ -147,12 +147,12 @@ export const pricingPlans = [
     description: 'Great for an MVP, Web App or complex problem',
     price: 'Rp1jt/module',
     features: [
-      'Design Updates Daily',
+      'Custom Workflow',
+      'Good Documentation',
+      'Newly Technology',
       'Profesional Designer',
-      'AI Advisory Framework',
-      'Full-service Creative Team',
-      '4x Calls Per Month',
-      'License free assets'
+      'Free Training Application',
+      'Free Maintenance'
     ],
     isPopular: true
   }
