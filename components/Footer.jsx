@@ -9,11 +9,11 @@ const Footer = () => {
           {/* Logo and description */}
           <div className="md:col-span-1">
             <div className="flex items-center mb-6">
-              <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center">
-                <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent text-2xl font-bold">
+              <div className="w-8 h-8 flex items-center justify-center">
+              <span className="w-4 h-4 block bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent text-2xl font-bold">
                 Dooha
-                </span>
-              </div>
+              </span>
+              <span className="ml-2 text-xl font-bold text-gray-900">Awake</span>
             </div>
             
             <p className="text-gray-600 mb-6 leading-relaxed">
