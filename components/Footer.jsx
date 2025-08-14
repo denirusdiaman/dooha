@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="ml-2 text-xl font-bold text-gray-900">Awake</span>
             </div> */}
             <div className="flex items-center">
-              <div className="w-8 h-8 flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent text-2xl font-bold">
                   Dooha
                 </span>
