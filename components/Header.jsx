@@ -55,13 +55,13 @@ const Header = () => {
             >
               {isDark ? '☀️' : '🌙'}
             </Button>
-            <a href="https://wa.me/6285159887588" target="_blank" rel="noopener noreferrer"></a>
             <Button variant="ghost" className="hidden sm:inline-flex">
+              Sign In
+            </Button>
+            <a href="https://wa.me/6285159887588" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-black text-white hover:bg-gray-800">
               Let's Collaborate
             </Button></a>
-            {/* <Button className="bg-black text-white hover:bg-gray-800">
-              Sign Up
-            </Button> */}
           </div>
         </div>
       </div>
