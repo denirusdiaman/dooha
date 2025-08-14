@@ -43,7 +43,7 @@ const PricingSection = () => {
                 <div className="text-4xl font-bold mb-6">
                   {plan.price}
                 </div>
-                
+                <a href="https://wa.me/6285159887588" target="_blank" rel="noopener noreferrer">
                 <Button 
                   className={`w-full py-3 rounded-full font-semibold ${
                     plan.isPopular 
@@ -52,7 +52,7 @@ const PricingSection = () => {
                   }`}
                 >
                   Let's Collaborate
-                </Button>
+                </Button></a>
               </div>
               
               <div>

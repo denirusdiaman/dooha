@@ -41,9 +41,10 @@ const ServicesSection = () => {
             Start Your Creative Journey with Us!
           </h3>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-black text-white hover:bg-gray-800 px-8 py-3 rounded-full">
+            <a href="https://wa.me/6285159887588" target="_blank" rel="noopener noreferrer">
+            </a><Button className="bg-black text-white hover:bg-gray-800 px-8 py-3 rounded-full">
               Let's Collaborate
-            </Button>
+            </Button></a>
             <Button variant="outline" className="px-8 py-3 rounded-full border-gray-300 hover:bg-gray-50">
               View Portfolio
             </Button>

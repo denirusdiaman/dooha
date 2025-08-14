@@ -17,9 +17,9 @@ const HeroSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Main heading */}
           <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-gray-900 mb-8 leading-tight">
-            We Create Digital Magic
+            We Create Digital Magic That
             <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent">
-              That Inspires
+            Inspires
             </span>
           </h1>
           

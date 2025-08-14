@@ -18,13 +18,13 @@ const CTASection = () => {
           Looking to elevate your brand? We craft immersive experiences that captivate, 
           engage, and make your business unforgettable in every interaction.
         </p>
-        
+        <a href="https://wa.me/6285159887588" target="_blank" rel="noopener noreferrer"></a>
         <Button 
           size="lg" 
           className="bg-black text-white hover:bg-gray-800 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
         >
           Let's Collaborate
-        </Button>
+        </Button></a>
       </div>
     </section>
   );
