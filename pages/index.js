@@ -37,7 +37,6 @@ export default function Home() {
         <TestimonialsSection />
         <PricingSection />
         <FAQSection />
-        <AwardsSection />
         <CTASection />
         <Footer />
       </div>
