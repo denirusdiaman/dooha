@@ -49,6 +49,11 @@ export const services = [
     icon: '✨'
   },
   {
+    title: 'Analytics & Reporting',
+    description: 'Data-driven insights and performance tracking',
+    icon: '📊'
+  },
+  {
     title: 'Web Development',
     description: 'Modern, responsive web development solutions',
     icon: '💻'
@@ -57,23 +62,23 @@ export const services = [
 
 export const portfolio = [
   {
-    title: 'FlowBank',
-    category: 'UX Research, Interface Design',
+    title: 'Michael Kontraktor',
+    category: 'Company Profile',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop'
   },
   {
-    title: 'Academy.co',
-    category: 'Product Design, Interaction Design',
+    title: 'Persiapan Masuk UI',
+    category: 'Company Profile',
     image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop'
   },
   {
-    title: 'Genome',
-    category: 'Brand Identity Design, UX Research',
+    title: 'Invoice and Vendor Management System',
+    category: 'Application',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop'
   },
   {
-    title: 'Hotto',
-    category: 'Visual Storytelling, Web & Mobile Design',
+    title: 'Tryout Simulation',
+    category: 'Application',
     image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop'
   }
 ];
@@ -104,46 +109,46 @@ export const teamMembers = [
 export const testimonials = [
   {
     quote: "Awake's expertise transformed my vision into success!",
-    author: 'Kabir Shah',
-    role: 'Founder of Chipsland',
+    author: 'Hendry',
+    role: 'Founder of Persiapan Masuk UI',
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face'
   },
   {
-    quote: "Their creativity and attention to detail transformed our brand completely!",
-    author: 'Sarah Johnson',
-    role: 'CEO of TechFlow',
+    quote: "Their creativity and attention to detail transformed our workflow completely!",
+    author: 'Hendi',
+    role: 'Head of Finance',
     avatar: 'https://images.unsplash.com/photo-1494790108755-2616b6d0aaf2?w=100&h=100&fit=crop&crop=face'
   },
   {
     quote: "Awake Design Agency brought our ideas to life with exceptional creativity and precision, exceeding expectations.",
-    author: 'Michael Chen',
-    role: 'Creative Director at Nexus',
+    author: 'Dini',
+    role: 'Creative Team of DKUI',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
   }
 ];
 
 export const pricingPlans = [
   {
-    name: 'Starter',
+    name: 'Website Development',
     description: 'For companies who need design support. One request at a time',
-    price: '$2500/month',
+    price: 'Rp1.5jt/month',
     features: [
-      'Design Updates Every 2 Days',
-      'Mid-level Designer',
+      'Custom Design',
+      'Profesional Designer',
       'SEO optimization',
       'Monthly analytics',
-      '2x Calls Per Month',
+      'Free Maintenance',
       'License free assets'
     ],
     isPopular: false
   },
   {
-    name: 'Pro',
-    description: '2x the speed. Great for an MVP, Web App or complex problem',
-    price: '$3800/month',
+    name: 'Application Development',
+    description: 'Great for an MVP, Web App or complex problem',
+    price: 'Rp1jt/module',
     features: [
       'Design Updates Daily',
-      'Senior-level Designer',
+      'Profesional Designer',
       'AI Advisory Framework',
       'Full-service Creative Team',
       '4x Calls Per Month',
@@ -155,7 +160,7 @@ export const pricingPlans = [
 
 export const faqItems = [
   {
-    question: 'What services does Awake Agency offer?',
+    question: 'What services does Dooha offer?',
     answer: 'We offer comprehensive design and development services including brand strategy, UI/UX design, web development, digital marketing, and analytics & reporting.'
   },
   {
@@ -163,8 +168,8 @@ export const faqItems = [
     answer: 'Project timelines vary depending on scope and complexity. Simple projects can take 2-4 weeks, while complex web applications may take 2-6 months.'
   },
   {
-    question: 'How is pricing structured at Awake Agency?',
-    answer: 'We offer flexible pricing models including project-based pricing and monthly subscriptions. Our packages start from $2500/month for ongoing design support.'
+    question: 'How is pricing structured at Dooha?',
+    answer: 'We offer flexible pricing models including project-based pricing and monthly subscriptions. Our packages start from Rp1.5jt/month for website development and Rp.1jt/module for application development.'
   },
   {
     question: 'Do you offer ongoing support after project completion?',
@@ -172,7 +177,7 @@ export const faqItems = [
   },
   {
     question: 'How often will I receive updates on my project?',
-    answer: 'Communication frequency depends on your chosen plan. Starter plan includes updates every 2 days, while Pro plan includes daily updates.'
+    answer: 'Communication frequency depends on our timeline projects.'
   }
 ];
 
@@ -206,7 +211,6 @@ export const footerLinks = {
     { name: 'Pricing', href: '#pricing' }
   ],
   otherPages: [
-    { name: 'Error 404', href: '/404' },
     { name: 'Terms & Conditions', href: '/terms' },
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Documentation', href: '/docs' }
@@ -214,7 +218,7 @@ export const footerLinks = {
 };
 
 export const contactInfo = {
-  address: '81 Rivington Street London EC2A 3AY',
-  email: 'hello@awake.agency',
-  phone: '0105 192 3556'
+  address: 'Jalan Gatot Subroto Kav.56, Gedung Surveyor Indonesia Lt.15, South Jakarta, DKI Jakarta 12950',
+  email: 'hai@dooha.id',
+  phone: '+62-812-1840-7588'
 };
