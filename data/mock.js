@@ -96,17 +96,20 @@ export const teamMembers = [
   {
     name: 'Jaelani',
     role: 'Application Developer',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face'
+    // image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face'
+    image: '/dooha-team (1).jpg'
   },
   {
     name: 'Rusdi',
     role: 'Wordpress Developer',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face'
+    // image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face'
+    image: '/dooha-team (2).jpg'
   },
   {
     name: 'Haryadi',
     role: 'UI/UX Designer',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face'
+    // image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face'
+    image: '/dooha-team (3).jpg'
   }
 ];
 
