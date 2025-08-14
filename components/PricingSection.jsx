@@ -11,7 +11,7 @@ const PricingSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-8 max-w-3xl mx-auto leading-tight">
             Pick the plan that fits your
-            <span className="block">start-up</span>
+            <span className="block">business</span>
           </h2>
         </div>
         
