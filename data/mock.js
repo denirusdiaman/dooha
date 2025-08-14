@@ -118,19 +118,19 @@ export const testimonials = [
     quote: "Dooha's expertise transformed my vision into success!",
     author: 'Hendry',
     role: 'Founder of Persiapan Masuk UI',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face'
+    avatar: '/dooha-avatar (1).jpg'
   },
   {
     quote: "Their creativity and attention to detail transformed our workflow completely!",
     author: 'Hendi',
     role: 'Head of Finance',
-    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b6d0aaf2?w=100&h=100&fit=crop&crop=face'
+    avatar: '/dooha-avatar (2).jpg'
   },
   {
     quote: "Dooha brought our ideas to life with exceptional creativity and precision, exceeding expectations.",
     author: 'Dini',
     role: 'Creative Team of DKUI',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
+    avatar: '/dooha-avatar (3).jpg'
   }
 ];
 
