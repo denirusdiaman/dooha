@@ -61,7 +61,7 @@ const TestimonialsSection = () => {
           </div>
           
           {/* Right side - Stats and image */}
-          <div className="space-y-8">
+          <div className="space-y-8 bg-pale-yellow">
             {/* Stats card */}
             <div className="bg-white rounded-2xl p-8 shadow-md">
               <p className="text-sm text-gray-500 uppercase tracking-wide mb-2">Facts & numbers</p>
