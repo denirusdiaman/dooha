@@ -17,11 +17,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Awake Agency - Building Bold Brands with Thoughtful Design</title>
-        <meta name="description" content="At Awake, we help small startups tackle the world's biggest challenges with tailored solutions, guiding you from strategy to success in a competitive market." />
+        <title>Dooha - Building Bold Brands with Thoughtful Design</title>
+        <meta name="description" content="At Dooha, we help small startups tackle the world's biggest challenges with tailored solutions, guiding you from strategy to success in a competitive market." />
         <meta name="keywords" content="design agency, branding, web development, UI/UX design, digital marketing" />
-        <meta property="og:title" content="Awake Agency - Building Bold Brands with Thoughtful Design" />
-        <meta property="og:description" content="At Awake, we help small startups tackle the world's biggest challenges with tailored solutions." />
+        <meta property="og:title" content="Dooha Agency - Building Bold Brands with Thoughtful Design" />
+        <meta property="og:description" content="At Dooha, we help small startups tackle the world's biggest challenges with tailored solutions." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
