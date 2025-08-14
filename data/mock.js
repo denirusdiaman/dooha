@@ -29,7 +29,7 @@ export const brandLogos = [
 export const stats = [
   { number: '+80', label: 'Total Projects Completed' },
   { number: '+15', label: 'Years of Experience' },
-  { number: '+12', label: 'Design Awards' }
+  { number: '🌟4.6', label: 'in Google Review' }
 ];
 
 export const services = [
@@ -41,7 +41,7 @@ export const services = [
   {
     title: 'Application Development',
     description: 'Develop applications that engage users on the go.',
-    icon: '💻'
+    icon: '📱'
   },
   {
     title: 'Brand Strategy',
